@@ -35,7 +35,7 @@ body {
   padding: 0.8rem 1.6rem;
   font-size: 1.6rem;
   border-radius: 2.4rem;
-  background-color: #4257de;
+  background-color: blue;
   color: rgb(247, 246, 246);
   border: none;
 }
@@ -50,6 +50,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 1.2rem 4.4rem;
+  background-color: rgb(243,243,243);
 }
 
 .logo {
@@ -87,11 +88,91 @@ body {
 /* HERO START */
 
 .hero {
-  background-color: azure;
+  background-color:rgb(243,243,243);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  padding: 11rem 0;
+}
+
+.hero--container {
+display: flex;
+align-items: center;
+justify-content: center;
+background-color:rgb(243,243,243);
+}
+
+
+.hero--text-box {
+  width: 40%;
+  background-color:rgb(243,243,243);
+}
+
+.hero--img {
+display: flex;
+  width: 60%;
+  background-color:rgb(243,243,243);
+}
+
+.hero--img img {
+ width: 100rem;
+}
+
+.hero--title {
+  display: flex;
+font-size: 6rem;
+width: 48rem;
+font-weight: 600;
+
+}
+
+.hero-description {
+  display: flex;
+  font-size: 1.8rem;
+}
+
+.hero--btns {
+  display: flex;
+  padding: 5rem 0;
+  gap: 3rem;
+}
+
+.blue {
+  background-color: rgb(66,87,222);
+  color: #ffffff;
+}
+
+.white {
+  background-color: rgb(243,243,243);
+  border: solid 1px black ;
+  color: black;
+}
+
+.hero--scroll-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.hero--scroll-btn p {
+  font-size: 1.3rem;
+}
+
+.down {
+  padding-top: 6rem;
+}
+
+.hero--down-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  width: 8rem;
+  height: 8rem;
+  background-color: #a4aad0;
+  border-radius: 50%;
 }
 
 /* HERO END */
@@ -99,9 +180,40 @@ body {
 /* HOW--IT--WORKS START */
 
 .how--it--works {
-  background-color: bisque;
+  background-color: rgb(245, 156, 46);
   display: flex;
   justify-content: center;
+}
+
+.sub--title {
+  font-size: 1.4rem;
+  color: blue;
+}
+
+
+.box--title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.works--title {
+  width: 34%;
+  font-size: 2.5rem;
+}
+
+.box--description {
+  width: 50%;
+}
+
+.works--cards {
+  display: flex;
+  background-color: aqua; 
+
+
+}
+
+.works--card {
+  width: 50rem;  
 }
 
 /* HOW--IT--WORKS END */
