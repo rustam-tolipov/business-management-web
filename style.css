@@ -27,6 +27,10 @@ body {
   max-width: 120rem;
 }
 
+.hamburger {
+  display: none;
+}
+
 .btn,
 .btn:link,
 .btn:visited {
