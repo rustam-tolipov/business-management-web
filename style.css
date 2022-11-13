@@ -79,6 +79,7 @@ body {
 .login--btn {
   border: none;
   font-size: 1.6rem;
+  background: none;
 }
 
 /* HEADER END */
@@ -516,29 +517,36 @@ label {
     font-size: 50%;
   }
 
-  .hero .hero--container {
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+  .hero {
+    height: auto;
   }
 
-  .hero--title {
-    font-size: 4.8rem;
+  .hero .hero--container {
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
   }
 
   .hero--text-box {
     align-items: center;
+    height: 30%;
+  }
+
+  .hero--title {
+    text-align: center;
   }
 
   .hero--img {
-    height: 60%;
+    height: 50%;
   }
 
   .hero--img img {
-    width: auto;
+    /* width: auto; */
     height: 100%;
+  }
+
+  .works--card {
+    width: 30%;
   }
 }
 
@@ -554,37 +562,93 @@ label {
 /**************************/
 
 @media (max-width: 34em) {
-  header {
+  .header {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hero {
+    padding: 9.6rem 2.8rem;
+  }
+
+  .navbar {
     display: none;
   }
 
-  .break--container {
+  .header--btns .btn {
+    display: none;
+  }
+
+  .hamburger {
+    font-size: 3.2rem !important;
+    font-weight: 600 !important;
+  }
+
+  .hero--title {
+    font-size: 5.2rem;
+  }
+
+  .hero--description {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .works--title--box {
+    display: flex;
     flex-direction: column;
+    gap: 1.2rem;
   }
 
-  .title-box {
-    width: 90%;
-    align-items: center;
+  .sub--title {
+    text-align: center;
   }
 
-  .gameplay--img {
+  .works--title {
+    text-align: center;
+  }
+
+  .box--description {
+    text-align: center;
+  }
+
+  .works--cards {
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  .works--card {
     width: 100%;
   }
 
-  .box-text p {
-    font-size: 1.2rem;
-  }
-
-  .partner--icon {
-    width: 6rem;
-  }
-
-  .features .container {
+  .works--price {
     flex-direction: column;
+    gap: 3.2rem;
   }
 
-  .titles {
+  .price--img-box {
+    width: 100%;
+  }
+
+  .price--text-box {
+    width: 100%;
+    gap: 2.4rem;
+  }
+
+  .feature--item {
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  .card--icon {
+    font-size: 1.4rem !important;
+  }
+
+  form {
+    padding: 2.2rem;
     width: 90%;
+  }
+
+  .form--inputs {
+    grid-template-columns: 1fr;
   }
 }
 
