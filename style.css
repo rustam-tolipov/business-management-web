@@ -28,7 +28,7 @@ body {
 }
 
 .hamburger {
-  display: none;
+  display: none !important;
 }
 
 .btn,
