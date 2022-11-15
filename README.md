@@ -2,4 +2,4 @@
 
 # Business Management Website (landing page)
 
-[LIVE DEMO](https://rustamxon7.github.io/BusinessManagementWeb/)
+[LIVE DEMO](https://rustamxon7.github.io/business-management-web/)
