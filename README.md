@@ -149,7 +149,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Rustam Tolipov - [Telegram link](@RustambekTolipov) - rustamxontolipov788@gmail.com
+Rustam Tolipov - [Telegram link](https://t.me/RustambekTolipov) - rustamxontolipov788@gmail.com
 
 Project Link: [https://github.com/rustamxon7/business-management-web](https://github.com/rustamxon7/business-management-web)
 
