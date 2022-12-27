@@ -63,7 +63,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](/imgs/business-management-web.jpeg)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/Rustamxon7/business-management-web/blob/setup/imgs/business-management-web.jpeg)
 
 The Business Management website is a landing page platform. We build this website to help others to grow their businesses easily. This website build with HTML CSS and user friendl.
 
