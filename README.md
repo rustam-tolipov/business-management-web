@@ -29,7 +29,7 @@
 
 <br/>
 
-### Live Demo : <a href="https://rustamxon7.github.io/business-management-web/">LIVE DEMO</a>
+### Live Demo : <a target="_blank" href="https://rustamxon7.github.io/business-management-web/">LIVE DEMO</a>
 
 <br/>
 
